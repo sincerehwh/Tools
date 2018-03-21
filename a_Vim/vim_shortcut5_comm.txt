@@ -1,0 +1,27 @@
+
+
+:w 将编辑的数据写入硬盘档案
+
+:w! 强制写入文件，成功与否取决于权限	
+
+:q 离开vim
+
+:q! 强制离开不保存
+
+:wq 保存并离开
+
+:wq 强制存储并离开
+
+ZZ 保存离开
+
+:w filename 另存为
+
+:r filename 读取文件并添加至下一行
+
+:n1,n2 w filename 将n1到n2存储未成新的file
+
+:! command vim下查看终端命令结果
+
+:set num 显示行号
+
+:set nonu  隐藏行号
