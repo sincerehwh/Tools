@@ -1,0 +1,30 @@
+
+class-dump ：
+	class-dump is a command-line utility for examining the Objective-C
+	segment of Mach-O files.  It generates declarations for the classes,
+	categories and protocols.  This is the same information provided by
+	using 'otool -ov', but presented as normal Objective-C declarations.
+
+
+The latest version and information is available at:
+    http://stevenygard.com/projects/class-dump
+
+The source code is also available from my Github repository at:
+    https://github.com/nygard/class-dump
+
+
+获取Mac权限：
+	重启 Mac，按住 Command + R，进入 recovery 模式;
+	选择打开 Utilities下的终端;
+	输入 csrutil disable 并回车;
+	最后重启 Mac 即可。
+
+
+sudo cp -r /../.. /usr/bin
+
+sudo chmod 777 /usr/bin/class-dump
+
+class-dump 
+
+
+

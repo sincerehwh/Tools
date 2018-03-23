@@ -1,0 +1,31 @@
+
+字段类型
+
+  int 
+  decimal(2,3)
+
+  编码：gb-2312/utf-8/	
+  char(8) 固定长度   超过截取
+  varchar(8) [0,7]  超过截取
+  text(大文本) 
+  
+  datetime 
+  bit
+
+约束：
+
+ 主键约束 primary key
+ 非空 not null
+ 唯一 unique
+ 默认 default
+ 外键 foreign key 
+
+
+重要数据逻辑删除：
+ isDelete
+
+ 
+
+  
+
+

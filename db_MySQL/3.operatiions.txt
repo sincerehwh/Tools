@@ -1,0 +1,60 @@
+
+mysql --help
+
+select version();
+select now();
+
+
+
+1.connection database: 
+mysql -u root -p
+mysql -h ip -uroot -p
+
+2.databse operation: 
+	show databases;
+	CREATE DATABSER dbname charset=utf8;
+	DROP DATABASE dbname;
+	USE dbname;	
+	SELECTC database();
+
+3.table operation:
+	show tables;
+	create table tablename(id int auto_increment primary key not null,
+						   name varchar(10) not null,
+						   gender bit default(0));
+
+    desc tablename;
+    alter table tableName add | change | drop 列名 类型；
+
+    drop table 表名；
+    rename table 表名 to 新表名；
+    show create table 表名;
+
+4.data operation:
+	
+  增：
+   insert into 表名 values(); // 全列插入需要占位，0
+   insert into TableName(col,..) values(values,...);
+   //// 特有的多条数据插入
+   insert into TableName values(),()...;
+   insert into TableName(col,...) values(v1,...),(v1...)...;
+  改：
+   update TableName set col=v1,... where condation
+  删：
+   delete from TableName where conditon
+   alter table TableName add isdelete bit default 0;
+   update TableName isdelete whwew ...;
+  查：
+    select * from TableName; 
+
+
+
+ 	select * from 表名；
+    
+
+
+
+
+show databases;
+use tables;
+show tables;

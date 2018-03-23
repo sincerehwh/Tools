@@ -1,0 +1,19 @@
+
+Mac:
+ brew install postgresql -v
+
+接下来就是初始数据库，在终端执行一下命令，初始配置 PostgreSQL：
+ initdb /usr/local/var/postgres -E utf8
+
+ initdb --help
+
+设成开机启动 PostgreSQL：
+	ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
+	launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+
+启动 PostgreSQL：
+	pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+
+关闭 PostgreSQL：
+	pg_ctl -D /usr/local/var/postgres stop -s -m fast
+
