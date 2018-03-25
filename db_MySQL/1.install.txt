@@ -1,1 +1,19 @@
-1.install.txt
+
+
+1.brew install mysql // 安装
+
+ command not found:
+
+  1.sudo chown -R 'username' /usr/local
+  2.brew link --overwrite mysql: Linking ... created
+  3.mysql.server start
+
+2.mysql_secure_installation
+
+ // 设置的密码强度必须满足才能下一步...
+
+3.INSERT INTO user 
+          (host, user, password, 
+           select_priv, insert_priv, update_priv) 
+           VALUES ('localhost', 'guest', 
+           PASSWORD('guest123'), 'Y', 'Y', 'Y');
