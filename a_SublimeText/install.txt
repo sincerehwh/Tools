@@ -1,0 +1,11 @@
+
+
+// 2018.3.26
+
+手动导入Package Control:
+
+1.Perferences > Browse Packages
+
+2.将Control.sublime-package 复制到 Installed Packages/
+
+3.重启Sublie Text
