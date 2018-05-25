@@ -1,0 +1,12 @@
+
+# Install Tensorflow On mac
+
+1.Install brew
+
+2.Install python3
+
+3.Create venv: python3 -m venv <#enverment name #> 
+
+4.Activate venv: source <#enverment name#>/bin/activate 
+
+5.Install Tensorflow: pip3 install Tensorflow 
