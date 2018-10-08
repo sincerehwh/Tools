@@ -32,7 +32,7 @@
 ├──────────────────┤                                      
 │                  │                                      
 │     Page End     │                                      
-│                  │◀─────nG: Full Text n Line            
+i│                  │◀─────nG: Full Text n Line            
 │                  │                                      
 └──────────────────┘◀─────G: Full Text END                
                                                           
