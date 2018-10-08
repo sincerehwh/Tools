@@ -1,0 +1,19 @@
+rpm -qa | grep mysql
+
+rpm -e mysql　　// 普通删除模式
+rpm -e --nodeps mysql　　// 强力删除模式，如果使用上面命令删除时，提示有依赖的其它文件，则用该命令可以对其进行强力删除
+
+
+# 下载
+wget https://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm
+rpm -ivh mysql57-community-release-el7-9.noarch.rpm
+yum install mysql-server
+
+初始化 MySQL：
+mysqld --initialize
+
+启动 MySQL：
+systemctl start mysqld
+
+查看 MySQL 运行状态：
+systemctl status mysqld

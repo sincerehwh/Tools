@@ -1,0 +1,9 @@
+
+
+
+###  mysql8.0 Authentication plugin 'caching_sha2_password' cannot be loaded
+
+使用: ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY '***';
+ERROR::: ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'root'
+Right::: ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '***';
+修改一下密码，就OK!
