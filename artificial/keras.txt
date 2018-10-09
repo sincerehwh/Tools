@@ -1,0 +1,7 @@
+
+
+pip3 install theano
+
+pip3 install tensorflow
+
+pip3 install keras

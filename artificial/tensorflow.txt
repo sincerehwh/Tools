@@ -1,0 +1,7 @@
+
+
+## MacOS Install 
+
+
+pip3 install tensorflow
+
